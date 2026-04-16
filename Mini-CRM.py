@@ -19,7 +19,7 @@ def load_data(path):
 
     return df
 
-def add_categoty(df):
+def add_category(df):
     def get_category(amount):
         if amount > 1500:
             return "Enterprise"
